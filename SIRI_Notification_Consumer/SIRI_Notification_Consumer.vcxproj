@@ -103,7 +103,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;_CONSOLE;WITH_C_LOCALE;WITH_PURE_VIRTUAL;WITH_NONAMESPACES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\external\threadpool_boost_dir; C:\external\Common; C:\external\boost_1_62_0;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\external\SIRI_External_Dependencies\threadpool_boost_dir; C:\external\boost_1_62_0;</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj</AdditionalOptions>
       <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
@@ -140,7 +140,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;WITH_C_LOCALE;WITH_PURE_VIRTUAL;WITH_NONAMESPACES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\external\threadpool_boost_dir; C:\external\Common; C:\external\boost_1_62_0;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\external\SIRI_External_Dependencies\threadpool_boost_dir; C:\external\Common; C:\external\boost_1_62_0;</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj</AdditionalOptions>
       <WholeProgramOptimization>true</WholeProgramOptimization>
     </ClCompile>
