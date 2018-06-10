@@ -400,8 +400,8 @@ extern intmax_t __strtoull(const char*, char**, int);
 #  define HAVE_STRRCHR
 #  define HAVE_STRTOD
 #  define HAVE_SSCANF
-//JJLL no existe en centos 7 #  define HAVE_STRTOD_L
-//JJLL no existe en centos 7 #  define HAVE_SSCANF_L
+//no existe en centos 7 #  define HAVE_STRTOD_L
+//no existe en centos 7 #  define HAVE_SSCANF_L
 #  define HAVE_STRTOL
 #  define HAVE_STRTOUL
 #  define HAVE_STRTOLL
