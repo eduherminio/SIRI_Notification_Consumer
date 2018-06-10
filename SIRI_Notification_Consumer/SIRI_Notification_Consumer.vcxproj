@@ -103,7 +103,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;_CONSOLE;WITH_C_LOCALE;WITH_PURE_VIRTUAL;WITH_NONAMESPACES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\external\threadpool_boost_dir; C:\external\Common</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\external\threadpool_boost_dir; C:\external\Common; C:\external\boost_1_62_0;</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj</AdditionalOptions>
       <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
@@ -111,6 +111,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
       <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <AdditionalLibraryDirectories>C:\external\boost_1_62_0\stage64_14\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -139,7 +140,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;WITH_C_LOCALE;WITH_PURE_VIRTUAL;WITH_NONAMESPACES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\external\threadpool_boost_dir; C:\external\Common</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\external\threadpool_boost_dir; C:\external\Common; C:\external\boost_1_62_0;</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj</AdditionalOptions>
       <WholeProgramOptimization>true</WholeProgramOptimization>
     </ClCompile>
@@ -148,6 +149,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\external\boost_1_62_0\stage64_14\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
